@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: #080808;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+}
+.container{
+    padding: 10px 10%;
+    margin-top: 10px;
+    
+    
+}
+.container1{
+    padding: 10px 10%;
+    display: flex;
+    gap: 30px;
+}
+.left{
+    font-size: 250%;
+}
+.left a{
+    color: white;
+    transition: color 0.5s;
+}
+.left a:hover{
+    color: #279EFF;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    margin: 10 20px;
+    font-size: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+nav ul li a::after{
+    content: "";
+    width: 0;
+    height: 3px;
+    background: #279EFF;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: width 0.5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+/* content */
+#content{
+    margin-top: 90px;
+}
+.heading{
+    font-size: 80px;
+    
+}
+.project{
+    color: #279EFF;
+}
+.github{
+    margin-top: 20px;
+}
+.left{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+.right{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 70px;
+    grid-gap: 50px;
+}
+.right img{
+    width: 320px;
+    height: 190px;
+    border-radius: 10px;
+    transition:transform 0.5s;;
+}
+.right img:hover{
+    transform: translateY(-10px);
+}
+.layer{
+    padding: 0 75px;
+}
+.heading1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 100px;
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #262626;
+    font-weight: 300;
+    margin-top: 20px;
+}
+.top{
+    padding: 20px;
+    margin-left: 92%;
+    border-radius: 50%;
+   
+}
