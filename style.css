@@ -37,11 +37,32 @@ nav{
     transition: color 0.5s;
 
 }
+
 .fa-solid:hover{
     color: white;
 }
 .develop{
     color: #279EFF;
+    transition: color 0.5s;
+    cursor: default;
+}
+.header-text{
+    cursor: default;
+}
+.develop:hover{
+    color: white;
+}
+.fa-link{
+    background-color: blue;
+    margin-left: 50px;
+    font-size: 500%;
+}
+.servicesList h2{
+    color: #fff;
+    transition: color 0.5s;
+}
+.servicesList h2:hover{
+    color: #262626;
 }
 .heading{
     width: 140px
