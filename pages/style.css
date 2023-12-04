@@ -23,10 +23,14 @@ nav{
     
     
 }
+#newHead{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 25px;
+}
 .container1{
     padding: 10px 10%;
     display: flex;
-    gap: 30px;
 }
 .left{
     font-size: 250%;
@@ -71,7 +75,8 @@ nav ul li a:hover::after{
     margin-top: 90px;
 }
 .heading{
-    font-size: 80px;
+    font-size: 70px;
+    margin-top: 10%;
     
 }
 .project{
@@ -85,11 +90,12 @@ nav ul li a:hover::after{
     justify-content: space-between;
     flex: 1;
 }
+
 .right{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     margin-left: 70px;
-    grid-gap: 50px;
+    grid-gap: 35px;
 }
 .right img{
     width: 320px;
@@ -121,4 +127,12 @@ nav ul li a:hover::after{
     margin-left: 92%;
     border-radius: 50%;
    
+}
+.shit{
+    color: white;
+    transition: color 0.5s;
+    cursor: default;
+}
+.shit:hover{
+    color: #279EFF;
 }
